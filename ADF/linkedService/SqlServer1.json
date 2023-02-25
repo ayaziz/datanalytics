@@ -7,7 +7,7 @@
 		"type": "SqlServer",
 		"typeProperties": {
 			"connectionString": "integrated security=False;data source=DESKTOP-2967P8L;initial catalog=ct;user id=sa;trustservercertificate=true",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiNTg3YWIxNC03MWJiLTQ3MjctYjA5ZS0zNGQ0N2Y4Zjc2ZTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNjIzOWQzOC01ZThmLTQzZmMtODJjYi1lOTUzZDk2YTM2NDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sqlir",
