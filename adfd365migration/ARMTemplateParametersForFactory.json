@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfd365migration"
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"d365adls_accountKey": {
+			"value": ""
+		},
+		"d365adls_properties_typeProperties_url": {
+			"value": "https://sgtd365migration.dfs.core.windows.net/"
+		}
+	}
+}
