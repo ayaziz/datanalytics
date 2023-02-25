@@ -12,8 +12,8 @@
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "",
-			"table": ""
+			"schema": "dbo",
+			"table": "Equipment"
 		}
 	}
 }
