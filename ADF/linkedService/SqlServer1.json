@@ -2,11 +2,12 @@
 	"name": "SqlServer1",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"description": "connection updates",
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=False;data source=locahost;initial catalog=ct;user id=sa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwM2U3YzU1Yy03MGRkLTRjNGYtOWQwZS1iYTRiNTBhODRlN2YiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;data source=DESKTOP-2967P8L;initial catalog=ct;user id=sa;trustservercertificate=true",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiNTg3YWIxNC03MWJiLTQ3MjctYjA5ZS0zNGQ0N2Y4Zjc2ZTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "sqlir",
