@@ -1,0 +1,9 @@
+{
+	"name": "adfd365migration",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "95c1d116-b5ae-4024-9575-eef29a5c8cae",
+		"tenantId": "142ae394-1ac7-41cc-a0bc-d39a169cfdfe"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "connection updates",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-2967P8L;initial catalog=ct;user id=sa;trustservercertificate=true",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNjIzOWQzOC01ZThmLTQzZmMtODJjYi1lOTUzZDk2YTM2NDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sqlir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
