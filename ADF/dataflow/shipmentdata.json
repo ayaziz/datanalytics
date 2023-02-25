@@ -1,0 +1,9 @@
+{
+	"name": "shipmentdata",
+	"properties": {
+		"type": "WranglingDataFlow",
+		"typeProperties": {
+			"sources": []
+		}
+	}
+}
